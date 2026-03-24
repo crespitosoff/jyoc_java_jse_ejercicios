@@ -5,5 +5,6 @@ public class Ejercicio7 {
         final double PI = 3.141516;
         // no se permite mutar un final
 //        double PI = 15;
+        System.out.println(PI + " sigue siendo 3.141516");
     }
 }
