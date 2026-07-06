@@ -7,7 +7,6 @@ public class Ejercicio3b2 {
         try (Scanner sc = new Scanner(System.in)) {
             int base = leerEnteroPositivo(sc, "Ingrese la base: ");
             int exponente = leerEnteroPositivo(sc, "Ingrese el exponente: ");
-
             long resultado = calcularPotenciaYMostrarPasos(base, exponente);
             System.out.println(", el resultado es: " + resultado);
         }
